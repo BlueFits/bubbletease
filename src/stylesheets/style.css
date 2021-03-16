@@ -1,0 +1,312 @@
+* {
+    overflow-x: hidde;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bubbletease-logo {
+    width: 300px;
+    margin: 1px 0 0 300px;
+    position: absolute;
+  }
+  
+  .accent1 {
+    top: 0px;
+    left: 0px;
+    width: 15vw;
+    min-width: 120px;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .accent2 {
+    width: 3.2vw;
+    min-width: 50px;
+    left: 20.5vw;
+    margin-top: -0.3vw;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .accent3 {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .accent4 {
+    margin-top: -65px;
+    margin-left: -50px;
+  }
+  
+  /* Header + Intro */
+  
+  .header-text {
+    font-family: myRaid pro;
+  }
+  
+  .p {
+    font-family: helvetica neue lt pro;
+  }
+  
+  .btn {
+    background-color: #70c2c0;
+    border: none;
+    padding: 10px 25px 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .navbar-nav {
+    justify-content: space-between;
+    margin-right: -75px;
+  }
+  
+  .just {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .homeCont {
+    margin-top: 20%;
+    height: 60%;
+  }
+  
+  .homei {
+    margin: 12% -5% 10% 0;
+    max-width: 500px;
+    min-width: 250px;
+    width: auto;
+    height: auto;
+  }
+  
+  .nav-text {
+    margin: 1vh 6vh 0 0;
+  }
+  
+  /* Specialties */
+  
+  #specialties {
+    margin-top: 16em;
+    height: 250px;
+    background-color: #70c2c0;
+    padding: 2vw;
+  }
+  
+  #specialties-copy {
+    font-weight: 400;
+    font-size: 0.95em;
+    line-height: 1.3em;
+  }
+  
+  #specialties-columns {
+    padding: 0 3vw 0 3vw;
+  }
+  
+  .one {
+    background-color: #ffcf71;
+    overflow: hidden;
+    margin-top: calc(-30px - 2vw) !important;
+    height: 280px;
+    padding: 3vw;
+  }
+  
+  h4 {
+    font-size: 2em;
+  }
+  
+  h6 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 600;
+  }
+  
+  #section-header {
+    color: #3f9a91;
+  }
+  
+  /* Featured */
+  #featured {
+    width: 100%;
+    /* height: 100vh; */
+  }
+  
+  .ff {
+    margin-top: 50px;
+  }
+  
+  .ff-images {
+    background-color: #70c2c0 !important;
+    opacity: 1;
+    display: block;
+    height: 75%;
+    object-fit: cover;
+    box-sizing: content-box;
+    /* border: 10px solid #70c2c0; */
+  }
+  
+  .dark-grey {
+    color: #4f4f4f;
+  }
+  
+  .col {
+    padding: 5%;
+    color: darkslategray;
+  }
+  
+  .col-md-auto {
+    padding: 5%;
+    color: #70c2c0;
+  }
+  
+  /* Established */
+  
+  #established {
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .hr {
+    width: 100px;
+    background-color: #ffcf71;
+    border: none;
+    height: 3px;
+    margin-left: 15px;
+  }
+  .justEst {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .high {
+    color: #70c2c0 !important;
+    font-size: 52px;
+  }
+  
+  .Providing {
+    font-size: 52px;
+    color: #383838;
+  }
+  
+  /* Images */
+  
+  #pgallery {
+    margin-top: 150px;
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .photo-col1 {
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .photo-col2 {
+    height: 460px;
+    object-fit: cover;
+  }
+  
+  #no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .lobby1 {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    color: white;
+    background-color: #70c2c0 !important;
+    float: right;
+    padding: 40px 15px 30px 15px;
+    border-radius: 0 0 0 0;
+    margin-top: -80px;
+    margin-right: 8vw;
+    z-index: 4;
+    justify-content: space-between;
+  }
+  
+  .circle {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 150px;
+    left: 100px;
+    justify-content: space-between;
+  }
+  
+  #quotes {
+    margin-left: 13px;
+    margin-top: 17px;
+  }
+  
+  /* Footer */
+  
+  #final {
+    width: 100%;
+    height: 75vh;
+    max-height: 400px;
+  }
+  
+  justFinal {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .homei {
+      width: 250px;
+    }
+  
+    #specialties {
+      margin-top: 15vw;
+    }
+  
+    #specialties-copy {
+      font-size: 0.7em;
+    }
+  
+    h4 {
+      font-size: 4vw;
+    }
+  
+    h6 {
+      font-size: 4vw;
+    }
+  
+    .accent1 {
+      width: 33vw;
+    }
+  
+    .accent2 {
+      width: 12vw;
+      left: 25px;
+    }
+  
+    .accent3 {
+      display: none;
+    }
+  
+    #established {
+      width: 100%;
+      height: 100vh;
+    }
+  
+    .card {
+      margin-right: 12vw;
+    }
+  }
+  
